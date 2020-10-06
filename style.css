@@ -101,7 +101,7 @@ h1:hover {
 }
 .det{
   border: 2px solid black;
-  float:center;
+  float:center; 
   font-size: 20px;
   background-color: white;
   opacity: 0.5;
