@@ -12,9 +12,10 @@ body {
 
 h1 {
     text-align: center;
-    color: white;
+    color: #D5D3D3;
+     text-shadow: 0 3px 0 #FFFF;
     font-family: 'Libre Baskerville', serif;
-  
+
 }
 
 form {
@@ -92,6 +93,11 @@ h1:hover {
   border-radius: 40px;
   color:#0F1656;
   opacity: 0.9;
+}
+.carousel-caption{
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 1;
 }
 .det{
   border: 2px solid black;
