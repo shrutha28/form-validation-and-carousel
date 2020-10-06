@@ -51,7 +51,7 @@ $(document).ready(function(){
         <div class="error" id="dobErr"></div>
     </div>
     <div class="row">
-          <input type="submit"id="sum"value="Submit">
+          <input type="submit"id="sum"value="Submit" onclick="return validateForm()">
       </div>
 
     </form>
@@ -133,7 +133,7 @@ $(document).ready(function(){
               if((nameErr || emailErr || mobileErr || AgeErr || dobErr) == true) {
                  return false;
               }
-            alert("Thank you for filling ")
+            alert("Thank you")
             }
 
               </script>
